@@ -1,0 +1,83 @@
+.personInfo {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px;
+	position: relative;
+}
+
+.name, .job, .quote, .quoteName {
+	margin: 0;
+	padding: 0;
+
+}
+
+.name {
+	color: var(--light-color);
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.job {
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 500;
+	background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+	-webkit-background-clip: text;
+	color: transparent;
+	margin-top: 10px;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 40px 0 0 0;
+}
+
+.quote {
+	color: var(--light-color);
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.quoteName {
+	color: var(--gray-color);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.languageButton {
+	padding: 10px;
+	background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 126px;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	transition: 0.7s opacity;
+}
+
+.languageButton:hover {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 899px) {
+	.name {
+		font-size: 46px;
+	}
+	.quote {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.quote {
+		font-size: 20px;
+	}
+}

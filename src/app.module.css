@@ -1,0 +1,21 @@
+.app {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 1600px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 2fr ;
+}
+
+@media screen and (max-width: 1620px) {
+	.app {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.app {
+		grid-template-columns: 1fr;
+	}
+}

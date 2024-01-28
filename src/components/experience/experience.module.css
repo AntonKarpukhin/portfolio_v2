@@ -1,0 +1,130 @@
+.experience {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.wrapperExperience {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	position: relative;
+}
+
+.line {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 2px solid var(--bg-color-light);
+	height: 100%;
+	position: absolute;
+	left: 3px;
+	top: 25px;
+}
+
+.lineNext {
+	top: 0;
+}
+
+.wrapperGrid {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 350px 1fr;
+	gap: 40px;
+}
+
+.h2 {
+	color: var(--light-color);
+	margin: 0;
+	padding: 0;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapperJob {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.wrapperInfo {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.info {
+	color: var(--gray-color);
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+.imgJob {
+	width: 50px;
+	height: 50px;
+}
+
+
+.name {
+	color: var(--light-color);
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	height: 55px;
+}
+
+.dot {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: -5px;
+	top: 15px;
+}
+
+.text {
+	color: var(--gray-color);
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 1299px) {
+	.wrapperGrid {
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.text {
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.h2 {
+		font-size: 32px;
+	}
+}
