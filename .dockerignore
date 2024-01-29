@@ -1,0 +1,11 @@
+# Deps
+node_modules/
+
+# Docker
+Dockerfile
+
+# Dist
+dist/
+
+# IDE Files
+.idea/
