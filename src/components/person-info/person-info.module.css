@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 20px;
 	position: relative;
+	height: 344px;
 }
 
 .name, .job, .quote, .quoteName {
@@ -76,8 +77,29 @@
 	}
 }
 
+@media screen and (max-width: 1375px) {
+	.personInfo {
+		height: 412px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.quote {
 		font-size: 20px;
+	}
+	.personInfo {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.personInfo {
+		height: 310px;
+	}
+}
+
+@media screen and (max-width: 435px) {
+	.personInfo {
+		height: 350px;
 	}
 }
