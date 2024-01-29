@@ -11,8 +11,6 @@ const PersonInfo = () => {
 		setState(getTextByCategory('person'))
 	}, [language] );
 
-	console.log(language)
-
 	return (
 		state && <section className={ styles.personInfo } >
             <p className={ styles.name }>{ state.name }</p>
