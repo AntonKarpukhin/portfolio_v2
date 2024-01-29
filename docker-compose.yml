@@ -8,8 +8,11 @@ services:
     environment:
       - LETSENCRYPT_HOST=antonkarpukhin.com
       - LETSENCRYPT_EMAIL=a.karpukhin21@mail.ru
-    ports:
-      - '8081:80'
+      - VIRTUAL_HOST=antonkarpukhin.com
+    networks:
+      - proxy-tier
+      - default
+
   proxy:
     build: ./nginx
     restart: always
@@ -42,5 +45,5 @@ services:
     depends_on:
       - proxy
 
-  networks:
-    proxy-tier:
+networks:
+  proxy-tier:
