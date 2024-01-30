@@ -10,7 +10,7 @@ const LayoutLeft = () => {
 			<Contacts/>
 			<Language/>
 		</section>
-)
+	)
 }
 
 export default LayoutLeft;

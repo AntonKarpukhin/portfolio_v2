@@ -68,3 +68,12 @@
 	font-style: normal;
 	font-weight: 400;
 }
+
+@media screen and (max-width: 330px) {
+	.language {
+		padding: 0;
+	}
+	.line {
+		margin-top: 30px;
+	}
+}

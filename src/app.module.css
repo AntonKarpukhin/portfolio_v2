@@ -8,6 +8,10 @@
 	grid-template-columns: 1fr 2fr ;
 }
 
+.change {
+	opacity: 0.1;
+}
+
 @media screen and (max-width: 1620px) {
 	.app {
 		width: 100%;

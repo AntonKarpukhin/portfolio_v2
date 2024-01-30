@@ -133,3 +133,9 @@
 		font-size: 32px;
 	}
 }
+
+@media screen and (max-width: 350px) {
+	.wrapper {
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	}
+}

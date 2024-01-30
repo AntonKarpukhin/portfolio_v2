@@ -4,3 +4,15 @@
 	padding: 30px;
 	background-color: var(--bg-color);
 }
+
+@media screen and (max-width: 410px) {
+	.layoutRight {
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	.layoutRight {
+		padding: 0;
+	}
+}

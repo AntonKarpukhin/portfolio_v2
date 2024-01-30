@@ -96,10 +96,39 @@
 	.personInfo {
 		height: 310px;
 	}
+	.wrapper {
+		padding-top: 20px;
+	}
 }
 
 @media screen and (max-width: 435px) {
 	.personInfo {
 		height: 350px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.personInfo {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 364px) {
+	.personInfo {
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.personInfo {
+		padding: 0;
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 324px) {
+	.personInfo {
+		padding: 0;
+		height: 400px;
 	}
 }

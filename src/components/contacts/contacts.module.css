@@ -96,3 +96,12 @@
 		font-size: 16px;
 	}
 }
+
+@media screen and (max-width: 330px) {
+	.contacts {
+		padding: 0;
+	}
+	.line {
+		margin-top: 30px;
+	}
+}
