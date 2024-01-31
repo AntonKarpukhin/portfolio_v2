@@ -58,7 +58,7 @@ const Projects = () => {
 								<img className={ styles.img } src="/projects/git.svg" alt="ГитХаб"/>
 							</div>
 							<a target="_blank" className={ styles.link }
-							   href="https://procharity.ru/">{state.link}</a>
+							   href="https://midas.antonkarpukhin.com/">{state.link}</a>
 						</div>
 						<div className={ styles.wrapperLink }>
 							<div className={ styles.wrapperImg }>
@@ -69,7 +69,6 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</section>
 	)
