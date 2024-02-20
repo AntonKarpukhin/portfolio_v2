@@ -1,5 +1,5 @@
 import { useLanguage } from "../../contex/context.tsx";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import styles from './experience.module.css';
 
 const Experience = () => {
@@ -29,7 +29,23 @@ const Experience = () => {
 							</div>
 						</div>
 					</div>
-					<p className={ styles.text }>{state.jobOne}</p>
+					<p className={ styles.text }>{state.jobOne.split('. ').map((sentence: string, index: number) => {
+						if (sentence.includes('ProCharity')) {
+							return (
+								<Fragment key={index}>
+									{sentence}
+									<br />
+									<br />
+								</Fragment>
+							)
+						} else {
+							return  (
+								<Fragment key={index}>
+									{sentence}
+								</Fragment>
+							)
+						}
+					})}</p>
 				</div>
 			</div>
 
@@ -38,34 +54,16 @@ const Experience = () => {
 				<img className={ styles.dot } src="/litle-dot.svg" alt="Точка"/>
 				<div className={ styles.wrapperGrid }>
 					<div className={ styles.wrapper }>
-						<p className={ styles.info }>{state.november} 2023 - {state.december} 2023</p>
+						<p className={ styles.info }>{state.september} 2022 - {state.november} 2023</p>
 						<div className={ styles.wrapperJob }>
-							<img className={ styles.imgJob } src="/experience/magnit.svg" alt="magnit"/>
+							<img className={ styles.imgJob } src="/experience/pharm.svg" alt="yandex"/>
 							<div className={ styles.wrapperInfo }>
-								<p className={ styles.info }>Trainee Frontend Developer</p>
-								<p className={ styles.name }>Magnit</p>
+								<p className={ styles.info }>Junior Frontend Developer</p>
+								<p className={ styles.name }>ПКФ Блик</p>
 							</div>
 						</div>
 					</div>
 					<p className={ styles.text }>{state.jobTwo}</p>
-				</div>
-			</div>
-
-			<div className={ styles.wrapperExperience }>
-				<div className={ `${ styles.line } ${ styles.lineNext }` }></div>
-				<img className={ styles.dot } src="/litle-dot.svg" alt="Точка"/>
-				<div className={ styles.wrapperGrid }>
-					<div className={ styles.wrapper }>
-						<p className={ styles.info }>{state.september} 2022 - {state.december} 2023</p>
-						<div className={ styles.wrapperJob }>
-							<img className={ styles.imgJob } src="/experience/yandex.svg" alt="yandex"/>
-							<div className={ styles.wrapperInfo }>
-								<p className={ styles.info }>Training Full-Stack Developer</p>
-								<p className={ styles.name }>Yandex</p>
-							</div>
-						</div>
-					</div>
-					<p className={ styles.text }>{state.jobThree}</p>
 				</div>
 			</div>
 

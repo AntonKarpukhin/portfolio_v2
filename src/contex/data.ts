@@ -53,12 +53,14 @@ export const dataLanguage = {
 			projects: 'Последние проекты',
 			procharityText: 'Помощь фондам.',
 			midasText: 'Ресторан по доставке еды.',
+			movieDBText: 'Онлайн кинотеатр',
 			link: 'Ссылка',
 		},
 		en: {
 			projects: 'Latest projects',
-			procharityText: 'Helping charitable foundations.',
-			midasText: 'Food Delivery Restaurant.',
+			procharityText: 'Helping charitable foundations',
+			midasText: 'Food Delivery Restaurant',
+			movieDBText: 'Online cinema',
 			link: 'Link',
 		}
 	},
@@ -70,9 +72,8 @@ export const dataLanguage = {
 			december: 'Декабрь',
 			january: 'Январь',
 			now: 'Сейчас',
-			jobOne: 'Комплексная разработка фронтенда и бэкенда с нуля. Для платформы интеллектуального волонтерства ProCharity.',
-			jobTwo: 'Разработка корпоративной платформы, которая объединяет чат, встречи, заметки и вложения в совместном рабочем пространстве. Проект закрыт.',
-			jobThree: 'Обучение Full-stack development',
+			jobOne: 'Open-source, комплексная разработка фронтенда и бэкенда с нуля..  Для платформы интеллектуального волонтерства ProCharity.. Сопровождение и менторинг в Яндекс Практикуме.',
+			jobTwo: 'Разработка информационной системы внутреннего учёта.',
 		},
 		en: {
 			experience: 'Experience',
@@ -81,9 +82,8 @@ export const dataLanguage = {
 			december: 'December',
 			january: 'January',
 			now: 'Now',
-			jobOne: 'End-to-end development of the frontend and backend from scratch. For the ProCharity platform of intelligent volunteering.',
-			jobTwo: 'Developing a corporate platform that integrates chat, meetings, notes, and attachments in a collaborative workspace. The project is closed.',
-			jobThree: 'Full-stack development training.',
+			jobOne: 'Open-source, end-to-end development of the frontend and backend from scratch. For the ProCharity platform of intelligent volunteering.. Maintenance and mentoring at Yandex Practicum.',
+			jobTwo: 'Development of an internal accounting information system.',
 		}
 	},
 	education: {
